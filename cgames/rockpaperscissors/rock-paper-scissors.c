@@ -47,7 +47,7 @@ int main(){
 
             keepAsking = 0;
 
-            if(strcmp(userHandString, "ROCK") == 0)
+            if(strcmp(userHandString, "stone") == 0)
                 userHand = 0;
             else if(strcmp(userHandString, "PAPER") == 0)
                 userHand = 1;
